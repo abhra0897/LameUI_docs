@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<html>
+    <header>
+        <style>
+            .doc-links {
+                background-color: rgb(8, 158, 151);
+                box-shadow: 0 10px 0 rgb(1, 92, 88);
+                border-radius: 10px;
+                color: white;
+                padding: 1em 1.5em;
+                position: relative;
+                text-decoration: none;
+                width: 60vw;
+                font-size: 1.2em;
+            }
+
+            .doc-links:hover {
+                background-color: rgb(36, 117, 179);
+                cursor: pointer;
+            }
+
+            .doc-links:active {
+                box-shadow: none;
+                top: 5px;
+            }
+
+            .links-container {
+                margin-top: 2em;
+                display: flex;
+                flex-direction: column;
+/*                 justify-content: center; */
+                align-items: center;
+                height: 80vh;
+                gap: 3%;
+
+            }
+
+            .top-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* Non-Demo Styles */
+            body {
+                background-image: url("background.svg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            * {
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+        </style>
+    </header>
+
+    <body>
+        <div class=top-container>
+            <img style="height: 60px; " src="LameUI_logo.png" alt="LameUI logo">
+            <h1 style="text-align: center; "> LameUI Documentation </h2>
+            <p style="border: 1px dashed black; padding: 2px;">Star <b>LameUI</b> on <a href="https://github.com/abhra0897/LameUI">GitHub</a> :)</p>
+        </div>
+        <div class=links-container>
+            <p style="font-size: 1.2em; "> Select docs version: </p>
+<!--             <a class=doc-links href=1.0/html/html/index.html>LameUI version 1.1</a> -->
+            <a class=doc-links href=1.0/html/html/index.html>LameUI version 1.0</a>
+
+        </div>
+
+    </body>
+
+</html>
+
